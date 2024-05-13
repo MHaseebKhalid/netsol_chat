@@ -1,0 +1,25 @@
+{
+  "name": "chatbot-ui",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "proxy": "https://wgam2422vf.execute-api.us-east-1.amazonaws.com/genai-app-poc-ApiStage/api/v1/llm/rag",
+  "dependencies": {
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-scripts": "3.0.1",
+    "react-speech-recognition": "2.0.4",
+    "axios": "1.6.8"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+}
