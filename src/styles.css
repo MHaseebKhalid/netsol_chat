@@ -41,6 +41,7 @@
   background: #00aaa5;
   color: white;
   min-width: 40px;
+  text-align: left;
 }
 
 .user-message {
