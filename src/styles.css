@@ -8,6 +8,9 @@
   flex-flow: column;
   width: 500px;
   overflow: hidden;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 .header {
