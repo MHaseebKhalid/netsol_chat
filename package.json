@@ -4,7 +4,7 @@
   "description": "",
   "keywords": [],
   "main": "src/index.js",
-  "proxy": "https://1d8tp0zb26.execute-api.us-east-1.amazonaws.com/genai-app-poc-ApiStage/api/v1/llm/rag",
+  "proxy": "https://76n9i9hrp9.execute-api.us-east-1.amazonaws.com/genai-app-poc-ApiStage/api/v1/llm/rag",
   "dependencies": {
     "react": "16.8.6",
     "react-dom": "16.8.6",
