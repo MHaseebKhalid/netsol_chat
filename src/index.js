@@ -14,10 +14,8 @@ import Header from "./components/Header";
 
 function Chatbot() {
   const [messages, setMessages] = useState([]);
-  const [msg, setMsg] = useState("");
-
   const fetchChatAPI = async (text) => {
-    if (text == " ") return;
+    if (text === " ") return;
     try {
       let data = JSON.stringify({
         q: text,
