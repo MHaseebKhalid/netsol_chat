@@ -16,9 +16,13 @@ import { v4 as uuidv4 } from 'uuid';
 
 function Chatbot() {
   const [messages, setMessages] = useState([]);
+  const [uid,setUID]=useState('')
+
+  useEffect(()=>{
+    setUID(uuidv4())
+  },[])
 
   const fetchChatAPI = async (text) => {
-    let uid = uuidv4();
     if (text === " ") return;
     try {
       let data = JSON.stringify({
