@@ -1,0 +1,54 @@
+.floating-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background-color: #007bff;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  animation: float 3s ease-in-out infinite, rotate 2s linear infinite;
+  }
+  
+  .floating-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .floating-button svg {
+    width: 40px;
+    height: 40px;
+  }
+
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @media (max-width: 600px) {
+    .floating-button {
+      width: 50px;
+      height: 50px;
+      right: 10px;
+      bottom: 10px;
+    }
+  }
+  
